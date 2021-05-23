@@ -11,7 +11,7 @@ const defaultOptions = {
   iconFile: `${__dirname}/src/images/coder.png`,
   typographyPath: `${__dirname}/src/utils/typography`,
   siteTitle: `CV`,
-  siteURL: `https://arvind-thoppe.netlify.app/`,
+  siteUrl: `https://arvind-thoppe.netlify.app/`,
   siteName: `Arvind Kumar Thoppe`,
   siteShortName: `TS`,
   siteDescription: `This cool App contains information about my work experience as a software developer.`,
