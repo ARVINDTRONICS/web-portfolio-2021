@@ -82,7 +82,7 @@ const Skill = ({
     <main css={styles.section} {...(style && { style })}>
       <header css={cssStyles.header}>
         <h2 css={cssStyles.h2}>{title}</h2>
-        <h2 css={cssStyles.h2}>{description}</h2>
+        <h4 css={cssStyles.h2}>{description}</h4>
       </header>
       {/* TODO: Find a workaround for this */}
       {/* It appears that AniLink causes the page to render many times */}

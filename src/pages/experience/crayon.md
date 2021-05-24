@@ -42,8 +42,8 @@ dateTo: "Present"
 ---
 
 - Part of Platform Solutions that builds custom apps on top of Crayon's product
-- Responsible for UI Development with React
-- Integrated with few third-party vendors SOAP/REST
+- Responsible for UI Development with React and Backend Development using NodeJS
+- Integrated with few third-party vendors both SOAP/REST
 - Worked Extensively with APIs, GraphQL, JavaScript
 - Familiar with Agile Software Development
 - Bugfixes and Feature Enhancements as needed

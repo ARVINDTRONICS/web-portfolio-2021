@@ -8,7 +8,7 @@ export default ({ data, transitionStatus }) => {
   return (
     <LayoutContactMe bgClassName="experience">
       <Helmet>
-        <title>Work Experience</title>
+        <title>Experience</title>
       </Helmet>
       <Experience
         jobs={data.allMarkdownRemark.edges}

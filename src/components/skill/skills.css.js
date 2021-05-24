@@ -104,9 +104,9 @@ const styles = {
     position: fixed;
     z-index: 2;
     transform-origin: top left;
-    padding-top: 2rem;
-    padding-left: 40rem;
-    width: calc(60% + 20rem);
+    padding-top: 10rem;
+    padding-left: 20rem;
+    width: calc(80% + 20rem);
   `,
   gridHeight: css`
     width: 100%;

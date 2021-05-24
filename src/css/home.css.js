@@ -1,5 +1,10 @@
 import { css } from "@emotion/core"
+import mediaQueryGenerator from "../utils/mediaQGen"
 
+const [media52Dot5em, media36em] = mediaQueryGenerator([
+  { type: "min", size: "52.5" },
+  { type: "max", size: "36" },
+])
 const styles = {
   blackColor: css`
     color: #000;
@@ -17,8 +22,18 @@ const styles = {
   dataContent: css`
     position: relative;
     top: 20%;
+    ${media36em} {
+      h1,
+      h2 {
+        font-size: 1.5em;
+        text-align: center;
+      }
+    }
     .Typewriter {
       font-size: 1.5em;
+      ${media36em} {
+        font-size: 1em;
+      }
     }
   `,
   dataTopbar: css`
